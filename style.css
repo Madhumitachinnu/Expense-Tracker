@@ -1,0 +1,130 @@
+body {
+padding-top: 70px; 
+font-family: 'Poppins', 'Open Sans', Arial, sans-serif;
+background-color: #F8FAFC;
+}
+
+a{
+font-size:14px;
+font-weight:700
+}
+
+.btn-success, .bg-success {
+	background-color: #0F766E !important;
+	border-color: #0F766E !important;
+}
+.btn-success:hover {
+	background-color: #0b5e58 !important;
+	border-color: #0b5e58 !important;
+}
+.btn-primary {
+	background-color: #F59E0B !important;
+	border-color: #F59E0B !important;
+	color: #1b1b1b !important;
+}
+.btn-primary:hover {
+	background-color: #d98709 !important;
+	border-color: #d98709 !important;
+}
+
+.hidden {
+opacity: 0;
+transition: opacity 1s ease-in-out;
+}
+
+.visible {
+opacity: 1;
+transition: opacity 0.5s ease-in-out;
+}
+
+.fade-element {
+opacity: 0;
+transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+opacity: 1;
+}
+
+a{
+text-decoration: none;
+}
+
+/* .card:hover {
+transform: scale(1.1);
+}
+
+.card {
+transition: transform 0.5s;
+} */
+
+.card {
+    background: linear-gradient(to left, white 50%, #0F766E 50%);
+    background-size: 200%;
+    background-position: right;  
+  }
+  .card:hover {
+    background-position: left;
+    color: white;
+  }
+  .card {
+    transition: background-position 0.5s ease-in-out;
+	box-shadow: 0 6px 20px rgba(2, 6, 23, 0.08);
+	border: 0;
+	border-radius: 12px;
+  }
+  
+/* Navbar accent underline on hover */
+.navbar-nav .nav-link {
+	position: relative;
+}
+.navbar-nav .nav-link::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	height: 3px;
+	width: 0;
+	background: linear-gradient(90deg, #F59E0B, #0F766E);
+	transition: width 0.25s ease-in-out;
+}
+.navbar-nav .nav-link:hover::after {
+	width: 100%;
+}
+
+
+h1, h2, h3, h4 {
+	font-weight: 700;
+}
+
+
+footer {
+	border-top: 4px solid transparent;
+	background-clip: padding-box;
+}
+footer::before {
+	content: "";
+	display: block;
+	height: 4px;
+	background: linear-gradient(90deg, #F59E0B, #FFFFFF, #0F766E);
+}
+
+
+.hero-section {
+	background: radial-gradient(1200px 400px at 10% 10%, rgba(15, 118, 110, 0.08), transparent),
+	            linear-gradient(180deg, #FFFFFF, #F8FAFC);
+	border-radius: 16px;
+}
+
+
+.band-dark {
+	background: linear-gradient(135deg, #0f172a, #0F766E) !important;
+	color: white;
+}
+
+
+.brand-name {
+	text-transform: none !important;
+	letter-spacing: normal;
+}
+
